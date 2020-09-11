@@ -97,24 +97,33 @@ Or by importing the minified version directly as a script.
 * Create a container div element for the rating system.
 * Simply call the function ##createRatingStars() in a script tag to create the Star Rating System
 
+# This is the function : 
+```createRatingStars(DOMelementToAppend, name, numOfStars, starWidth, color, bgColor,cb)```
 This is how you call the function:
 
 ```
-<div id='test'></div>
-<script type="text/javascript"> createRatingStars(test, 'stars', 10, 60, "navy", "white", cb); </script>
+<div id='container-first'></div>
+<script type="text/javascript"> 
+let containerFirst = document.getElementById('container-first');
+createRatingStars(containerFirst, 'stars', 10, 60, "navy", "white", cb); 
+</script>
 
 ```
-As you can see, the function takes 7 parameters, the last one the callback, is (optional), these are
-the paramaters it takes:
+As you can see, the function takes 7 parameters, the last one, the callback, is (optional), these are
+the parameters it takes:
 
   * type: Object, The DOM element where you want to append the stars
   * type: String, the number of stars
-  * type: Number, the width of stars
+  * type: Number/String, the width of stars, it takes a number in px or a relative unit
   * type: String, the main color of stars (it accepts any format supported by CSS)
   * type: String, the background color of stars (it accepts any format supported by CSS)
   * type: Function, An optional callback that is triggered on click on stars
   
-
+Being built on SVG, the stars are fully responsive on resize, you just have to pay attention to a few things:
+* If you want them to be in line, give the container an auto width and then you can give the stars a fixed width
+* If you want them to be inline with a fixed container width, give them a relative width according to the number of stars, eg:
+  if you have 10 stars, give them a width of '10%', if you have 20 stars, give them a width of '5%', etc...
+  
 <!-- ROADMAP -->
 ## Roadmap
 
