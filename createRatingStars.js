@@ -15,6 +15,7 @@ function createRatingStars(DOMelementToAppend, numOfStars, starWidth, color, bgC
   //--------------------------------------------------------------------
   //--Events setting----------------------------------------------------  
   let stars = [...document.querySelectorAll(".stars")];
+  let color = color;
     
     //----Setting an object with all positioning props of the stars ---
   
