@@ -1,5 +1,4 @@
 function createRatingStars(DOMelementToAppend, name, numOfStars, starWidth, color, bgColor,cb) {
-  //----Scaffold drawing----------------------------------------------
   let svgContainer = document.createElement("div");
   svgContainer;
   let result = document.createElement("div");

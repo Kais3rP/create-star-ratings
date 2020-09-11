@@ -1,0 +1,10 @@
+{
+    "presets": [["minify", {
+      "mangle": {
+        "exclude": ["createRatingStars"]
+      },
+      "keepFnName": true,
+      
+    }]],
+    "comments": false
+  }
