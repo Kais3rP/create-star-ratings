@@ -41,6 +41,7 @@ function createRatingStars(
                 result.innerText = "Total Score: " + (i + 0.5);
             //Hover the second half of the star
             else result.innerText = "Total Score: " + (i + 1);
+            cb ? cb(ev) : null;
         };
     
     
