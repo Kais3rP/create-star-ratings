@@ -122,6 +122,12 @@ the parameters it takes:
 * ```bgColor```, type: String, the background color of stars (it accepts any format supported by CSS)
 * ```cb```, type: Function, An optional callback that is triggered on click on stars
   
+## Using the callback parameter
+
+The callback parameter is important because it lets you use the selected score in your logic, you should declare your callback like this:
+
+```const cb = (elem, score) => {//Do something with the element clicked and with the relative score} ```
+
 Being built on SVG, the stars are fully responsive on resize, you just have to pay attention to a few things:
 * If you want them to be in line, give the container an auto width and then you can give the stars a fixed width
 * If you want them to be inline with a fixed container width, give them a relative width according to the number of stars, eg:

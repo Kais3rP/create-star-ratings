@@ -34,11 +34,15 @@ function createRatingStars(
                 ev.pageX <
                 ev.currentTarget.getBoundingClientRect().x +
                 ev.currentTarget.getBoundingClientRect().width / 2
-            )
+            ){
                 result.innerText = "Total Score: " + (i + 0.5);
+                cb ? cb(ev.currentTarget,i+0.5) : null;
+            }
             //Hover the second half of the star
-            else result.innerText = "Total Score: " + (i + 1);
-            cb ? cb(ev) : null;
+            else {
+                result.innerText = "Total Score: " + (i + 1);
+                cb ? cb(ev.currentTarget,i+1) : null;
+            }
         };
     
     
