@@ -42,8 +42,8 @@ function createRatingStars(
             //Hover the second half of the star
             else result.innerText = "Total Score: " + (i + 1);
         };
-    }
-    for (let i = 0; i < stars.length; i++) {
+    
+    
         stars[i].onmousemove = (ev) => {
             if (
                 ev.pageX <
