@@ -114,12 +114,13 @@ createRatingStars(containerFirst, 'stars', 10, 60, "navy", "white", cb);
 As you can see, the function takes 7 parameters, the last one, the callback, is (optional), these are
 the parameters it takes:
 
-  * type: Object, The DOM element where you want to append the stars
-  * type: String, the number of stars
-  * type: Number/String, the width of stars, it takes a number in px or a relative unit
-  * type: String, the main color of stars (it accepts any format supported by CSS)
-  * type: String, the background color of stars (it accepts any format supported by CSS)
-  * type: Function, An optional callback that is triggered on click on stars
+* DOMelementToAppend, type: Object, The DOM element where you want to append the stars
+* name, type: String, the unique name for the whole container, it's used to attach eventlisteners and styles
+* numOfStars, type: Number, the number of stars
+* starWidth, type: Number/String, the width of stars, it takes a number in px or a relative unit
+* color, type: String, the main color of stars (it accepts any format supported by CSS)
+* bgColor, type: String, the background color of stars (it accepts any format supported by CSS)
+* cb, type: Function, An optional callback that is triggered on click on stars
   
 Being built on SVG, the stars are fully responsive on resize, you just have to pay attention to a few things:
 * If you want them to be in line, give the container an auto width and then you can give the stars a fixed width
