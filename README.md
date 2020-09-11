@@ -85,7 +85,8 @@ More info on Usage in the proper Section.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can use this library by using the CDN directly on your page: https://cdn.jsdelivr.net/gh/Kais3rP/create-star-ratings@latest/create-rating-stars.min.js
+You can use this library by using the **CDN**  directly on your page: 
+### https://cdn.jsdelivr.net/gh/Kais3rP/create-star-ratings@latest/create-rating-stars-light.min.js
 
 Or by importing the minified version directly as a script.
 
