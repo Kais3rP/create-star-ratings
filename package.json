@@ -1,0 +1,28 @@
+{
+  "name": "star-rating-system",
+  "version": "1.0.0",
+  "description": "Star Rating System generator",
+  "main": "createRatingStars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kais3rP/create-star-ratings.git"
+  },
+  "keywords": [
+    "star-rating",
+    "svg"
+  ],
+  "author": "Cesare Polonara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kais3rP/create-star-ratings/issues"
+  },
+  "homepage": "https://github.com/Kais3rP/create-star-ratings#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

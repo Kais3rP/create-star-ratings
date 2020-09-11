@@ -46,7 +46,7 @@
     <a href="https://github.com/Kais3rP/create-star-ratings"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://codepen.io/kais3rp/pen/yLOKdVj">View Demo</a>
+    <a href="https://codepen.io/kais3rp/pen/yLOKdVj" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/Kais3rP/create-star-ratings/issues">Report Bug</a>
     ·
