@@ -14,7 +14,6 @@ function createRatingStars(DOMelementToAppend, name, numOfStars, starWidth, colo
 //--------------------------------------------------------------------
 //--Events setting----------------------------------------------------  
 let stars = [...document.querySelectorAll(`.${name}`)];
-console.log(stars)
   
   //----Setting an object with all positioning props of the stars ---
 
@@ -79,7 +78,7 @@ console.log(stars)
   svgContainer.onmousemove = (ev) => {
     for (let star of starProps) {
       //Hover the first half of the star
-      console.log(ev.pageX, star.x0)
+      
       if (
         ev.pageX > star.x0 &&
         ev.pageX < star.x1 &&
