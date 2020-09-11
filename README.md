@@ -72,7 +72,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This is a Star Rating System generator, that let you insert in your page UI, a Star Rating graphical interface.
 The generator is highly customizable, and lets you choose everything, colors, size, number of stars, etc...
@@ -86,7 +85,7 @@ More info on Usage in the proper Section.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can use this library by using the CDN directly on your page: https://cdn.jsdelivr.net/gh/Kais3rP/create-star-ratings@master/createRatingStars.js
+You can use this library by using the CDN directly on your page: https://cdn.jsdelivr.net/gh/Kais3rP/create-star-ratings@latest/create-rating-stars.min.js
 
 Or by importing the minified version directly as a script.
 
@@ -157,22 +156,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - cesare.polonara@gmail.com
+Cesare Polonara - [@twitter_handle](https://twitter.com/CesarePolonara) - cesare.polonara@gmail.com
 
 Project Link: [https://github.com/Kais3rP/create-star-ratings](https://github.com/Kais3rP/create-star-ratings)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
+Demo Link : [https://codepen.io/kais3rp/pen/yLOKdVj](https://codepen.io/kais3rp/pen/yLOKdVj)
+Personal Site : [http://cesare-polonara.netlify.app/](http://cesare-polonara.netlify.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
