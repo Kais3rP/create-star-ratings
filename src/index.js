@@ -88,6 +88,8 @@ let stars = [...document.querySelectorAll(`.${name}`)];
         //Fills the rest of the stars on the left:
         for (let starOrig of stars.slice(0, stars.indexOf(star.star)))
           starOrig.style.fill = color;
+          for (let starOrig of stars.slice(stars.indexOf(star.star), stars.length-1))
+        starOrig.style.fill = "";
       }
       //Hover the second half of the star
       if (
@@ -100,6 +102,8 @@ let stars = [...document.querySelectorAll(`.${name}`)];
         //Fills the rest of the stars on the left:
         for (let starOrig of stars.slice(0, stars.indexOf(star.star)))
           starOrig.style.fill = color;
+          for (let starOrig of stars.slice(stars.indexOf(star.star), stars.length-1))
+        starOrig.style.fill = "";
       }
     }
   };
