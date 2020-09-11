@@ -1,25 +1,21 @@
 function createRatingStars(DOMelementToAppend, numOfStars, starWidth, color, bgColor,cb) {
+    //----Scaffold drawing----------------------------------------------
     let svgContainer = document.createElement("div");
     svgContainer;
     let result = document.createElement("div");
     result.setAttribute("id", "result");
     result.innerText = "Rating: ";
   
-    let num = 1;
-    let nums = [];
-    while (num < numOfStars) {
-      nums.push(num);
-      num++;
-    }
-    nums.forEach(() => {
+    for(let i = 0; i<numOfStars; i++){
       let svgClone = createSVG().cloneNode(true);
       svgContainer.appendChild(svgClone);
-    });
+    };
     svgContainer.appendChild(result);
     DOMelementToAppend.appendChild(svgContainer);
-  
-    let stars = [...document.querySelectorAll(".stars")];
-    //--------------------------------------------------
+  //--------------------------------------------------------------------
+  //--Events setting----------------------------------------------------  
+  let stars = [...document.querySelectorAll(".stars")];
+    
     //----Setting an object with all positioning props of the stars ---
   
     let starProps = [];
@@ -113,11 +109,11 @@ function createRatingStars(DOMelementToAppend, numOfStars, starWidth, color, bgC
     //------------------------------------------
   
     function createSVG() {
-      var xmlns = "http://www.w3.org/2000/svg";
-      var boxWidth = 300;
-      var boxHeight = 300;
+      let xmlns = "http://www.w3.org/2000/svg";
+      let boxWidth = 300;
+      let boxHeight = 300;
   
-      var svgElem = document.createElementNS(xmlns, "svg");
+      let svgElem = document.createElementNS(xmlns, "svg");
       svgElem.setAttributeNS(
         null,
         "viewBox",
@@ -130,25 +126,25 @@ function createRatingStars(DOMelementToAppend, numOfStars, starWidth, color, bgC
       svgElem.setAttributeNS(null, "stroke-width", "15px");
   
       // draw linear gradient
-      var defs = document.createElementNS(xmlns, "defs");
-      var grad = document.createElementNS(xmlns, "linearGradient");
+      let defs = document.createElementNS(xmlns, "defs");
+      let grad = document.createElementNS(xmlns, "linearGradient");
       grad.setAttributeNS(null, "id", "half-grad");
       grad.setAttributeNS(null, "x1", "0%");
       grad.setAttributeNS(null, "x2", "100%");
       grad.setAttributeNS(null, "y1", "0%");
       grad.setAttributeNS(null, "y2", "0%");
-      var stopLeft = document.createElementNS(xmlns, "stop");
+      let stopLeft = document.createElementNS(xmlns, "stop");
       stopLeft.setAttributeNS(null, "offset", "50%");
       stopLeft.setAttributeNS(null, "stop-color", color);
       grad.appendChild(stopLeft);
-      var stopRight = document.createElementNS(xmlns, "stop");
+      let stopRight = document.createElementNS(xmlns, "stop");
       stopRight.setAttributeNS(null, "offset", "50%");
       stopRight.setAttributeNS(null, "stop-color", bgColor);
       grad.appendChild(stopRight);
       defs.appendChild(grad);
       svgElem.appendChild(defs);
   
-      var polygon = document.createElementNS(xmlns, "polygon");
+      let polygon = document.createElementNS(xmlns, "polygon");
       polygon.setAttributeNS(
         null,
         "points",
