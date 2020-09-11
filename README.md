@@ -97,7 +97,7 @@ Or by importing the minified version directly as a script.
 * Simply call the function ##createRatingStars() in a script tag to create the Star Rating System
 
 ## This is the function : 
-### ```createRatingStars(DOMelementToAppend, name, numOfStars, starWidth, color, bgColor,cb)```
+#### ```createRatingStars(DOMelementToAppend, name, numOfStars, starWidth, color, bgColor,cb)```
 This is how you call the function:
 
 ```
