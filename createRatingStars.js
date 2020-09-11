@@ -159,16 +159,3 @@ let stars = [...document.querySelectorAll(`.${name}`)];
 }
 
 
-  
-  //Readme:
-  /*
-  This function teakes as parameters:
-  
-  -The DOM element where you want to append the stars
-  -Number of stars
-  -Size of stars
-  -Main color of stars
-  -Background color of stars
-  -An optional callback that is triggered on click on stars
-  
-  */

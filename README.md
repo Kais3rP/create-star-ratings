@@ -41,7 +41,7 @@
   <h3 align="center">Custom Star Rating System</h3>
 
   <p align="center">
-    A simple Star Rating System, highly customizable with, easy to use as calling a function!
+    A simple Star Rating System, yet highly customizable and easy to use as is calling a function!
     <br />
     <a href="https://github.com/Kais3rP/create-star-ratings"><strong>Explore the docs »</strong></a>
     <br />
@@ -62,11 +62,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -78,52 +74,46 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`Kais3rP`, `create-star-ratings`, `twitter_handle`, `cesare.polonara@gmail.com`
-
+This is a Star Rating System generator, that let you insert in your page UI, a Star Rating graphical interface.
+The generator is highly customizable, and lets you choose everything, colors, size, number of stars, etc...
+More info on Usage in the proper Section.
 
 ### Built With
 
 * [Vanilla JS]()
 
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+You can use this library by using the CDN directly on your page: https://cdn.jsdelivr.net/gh/Kais3rP/create-star-ratings@master/createRatingStars.js
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Clone the repo
-```sh
-git clone https://github.com/Kais3rP/create-star-ratings.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
-
-
+Or by importing the minified version directly as a script.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+* Import the library in you project.
+* Create a container div element for the rating system.
+* Simply call the function ##createRatingStars() in a script tag to create the Star Rating System
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+This is how you call the function:
 
+```
+<div id='test'></div>
+<script type="text/javascript"> createRatingStars(test, 'stars', 10, 60, "navy", "white", cb); </script>
 
+```
+As you can see, the function takes 7 parameters, the last one the callback, is (optional), these are
+the paramaters it takes:
+
+  * type: Object, The DOM element where you want to append the stars
+  * type: String, the number of stars
+  * type: Number, the width of stars
+  * type: String, the main color of stars (it accepts any format supported by CSS)
+  * type: String, the background color of stars (it accepts any format supported by CSS)
+  * type: Function, An optional callback that is triggered on click on stars
+  
 
 <!-- ROADMAP -->
 ## Roadmap
