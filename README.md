@@ -46,7 +46,7 @@
     <a href="https://github.com/Kais3rP/create-star-ratings"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Kais3rP/create-star-ratings">View Demo</a>
+    <a href="https://codepen.io/kais3rp/pen/yLOKdVj">View Demo</a>
     ·
     <a href="https://github.com/Kais3rP/create-star-ratings/issues">Report Bug</a>
     ·
@@ -123,7 +123,7 @@ Being built on SVG, the stars are fully responsive on resize, you just have to p
 * If you want them to be in line, give the container an auto width and then you can give the stars a fixed width
 * If you want them to be inline with a fixed container width, give them a relative width according to the number of stars, eg:
   if you have 10 stars, give them a width of '10%', if you have 20 stars, give them a width of '5%', etc...
-  
+
 <!-- ROADMAP -->
 ## Roadmap
 
