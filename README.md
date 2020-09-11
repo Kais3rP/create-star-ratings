@@ -108,7 +108,7 @@ createRatingStars(containerFirst, 'stars', 10, 60, "navy", "white", cb);
 </script>
 
 ```
-
+### Demo Link : [https://codepen.io/kais3rp/pen/yLOKdVj](https://codepen.io/kais3rp/pen/yLOKdVj)
 
 As you can see, the function takes 7 parameters, the last one, the callback, is (optional), these are
 the parameters it takes:
@@ -156,10 +156,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Cesare Polonara - [@CesarePolonara](https://twitter.com/CesarePolonara) - cesare.polonara@gmail.com
-
-Project Link: [https://github.com/Kais3rP/create-star-ratings](https://github.com/Kais3rP/create-star-ratings)
-Demo Link : [https://codepen.io/kais3rp/pen/yLOKdVj](https://codepen.io/kais3rp/pen/yLOKdVj)
+Cesare Polonara - [@CesarePolonara](https://twitter.com/CesarePolonara) - cesare.polonara@gmail.com<br>
+Project Link: [https://github.com/Kais3rP/create-star-ratings](https://github.com/Kais3rP/create-star-ratings)<br>
+Demo Link : [https://codepen.io/kais3rp/pen/yLOKdVj](https://codepen.io/kais3rp/pen/yLOKdVj)<br>
 Personal Site : [http://cesare-polonara.netlify.app/](http://cesare-polonara.netlify.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
