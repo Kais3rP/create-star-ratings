@@ -77,6 +77,7 @@ function createRatingStars(DOMelementToAppend, numOfStars, starWidth, color, bgC
   
     //--------------------------------------------------------------
     //--Main logic of filling the stars according to mouse positioning
+    (function(){
     document.onmousemove = (ev) => {
       for (let star of starProps) {
         //Hover the first half of the star
@@ -105,6 +106,7 @@ function createRatingStars(DOMelementToAppend, numOfStars, starWidth, color, bgC
         }
       }
     };
+  })()
   
     //Create SVG Function
     //------------------------------------------
