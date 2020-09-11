@@ -96,8 +96,8 @@ Or by importing the minified version directly as a script.
 * Create a container div element for the rating system.
 * Simply call the function ##createRatingStars() in a script tag to create the Star Rating System
 
-# This is the function : 
-```createRatingStars(DOMelementToAppend, name, numOfStars, starWidth, color, bgColor,cb)```
+## This is the function : 
+### ```createRatingStars(DOMelementToAppend, name, numOfStars, starWidth, color, bgColor,cb)```
 This is how you call the function:
 
 ```
@@ -156,7 +156,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Cesare Polonara - [@twitter_handle](https://twitter.com/CesarePolonara) - cesare.polonara@gmail.com
+Cesare Polonara - [@CesarePolonara](https://twitter.com/CesarePolonara) - cesare.polonara@gmail.com
 
 Project Link: [https://github.com/Kais3rP/create-star-ratings](https://github.com/Kais3rP/create-star-ratings)
 Demo Link : [https://codepen.io/kais3rp/pen/yLOKdVj](https://codepen.io/kais3rp/pen/yLOKdVj)
