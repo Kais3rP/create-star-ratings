@@ -27,10 +27,7 @@ function createRatingStars(
         //adds the onclick event to calculate the score:
 
         stars[i].onclick = (ev) => {
-            console.log(
-                "pageX: " + ev.pageX,
-                ev.currentTarget.getBoundingClientRect().x
-            );
+           
             //Hover the first half of the star
 
             if (
